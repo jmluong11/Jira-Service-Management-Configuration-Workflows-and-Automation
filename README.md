@@ -73,3 +73,52 @@
 ![access](https://i.imgur.com/VAkC1Gz.png)
 
 <br>
+
+<h2> Defining a Workflow </h2>
+
+<p> A workflow defines the lifecycle of an issue, from creation to resolution. Customizing the workflow allows you to mirror your organization's process for handling IT support requests.</p>
+
+<img width="1003" alt="workflow" src="https://i.imgur.com/TXBC7q7.png">
+
+<p><strong>.</strong></p>
+<p><strong>.</strong></p>
+
+<h3>Standard Workflow Stages for IT Help Desk: </h3>
+
+<img width="624" alt="diagram" src="https://i.imgur.com/YyzxiOj.png">
+
+<br>
+<br>
+
+<p><strong>Open:</strong> The initial status of a new issue.</p>
+<p><strong>In Progress:</strong>The issue is being worked on by IT staff.</p>
+<p><strong>Awaiting User:</strong> Waiting for more information or confirmation from the user.</p>
+<p><strong>Resolved:</strong> The issue has been addressed, awaiting closure.</p>
+<p><strong>Closed:</strong> The issue is fully resolved and closed.</p>
+
+<br>
+
+![diagram border](https://i.imgur.com/6QHBinc.png)
+
+<p><strong>.</strong></p>
+<p><strong>.</strong></p>
+<p><strong>.</strong></p>
+
+<h2>Custom Fields</h2>
+
+<p>Custom fields allow you to capture specific information related to different issue types. </p>
+
+![custom fields](https://i.imgur.com/HYOI6km.png)
+
+
+<p><strong>Severity Level:</strong> Helps prioritize issues based on their impact on the business.</p>
+
+<p><strong>Affected System:</strong> Identifies which system or application is impacted by the issue. </p>
+
+<p><strong>Reported By:</strong> Captures whether the issue was reported by an employee, customer, or vendor. </p>
+  
+<p><strong>Expected Resolution Time:</strong> Provides an estimate of how long it will take to resolve the issue, which can be crucial for managing expectations.</p>
+
+<p><strong>Root Cause Analysis:</strong> A text field for documenting the underlying cause of the issue once it has been identified. This is valuable for preventing future occurrences.</p>
+
+<br>
