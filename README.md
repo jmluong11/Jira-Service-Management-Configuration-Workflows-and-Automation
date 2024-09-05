@@ -122,3 +122,10 @@
 <p><strong>Root Cause Analysis:</strong> A text field for documenting the underlying cause of the issue once it has been identified. This is valuable for preventing future occurrences.</p>
 
 <br>
+
+<h2>Customizing Screens</h2>
+
+<p>Screens in Jira determine which fields are displayed to users when they create, view, or edit an issue. Customizing these screens allows you to ensure that users are prompted for all relevant information when reporting an issue or moving it through its lifecycle.</p>
+
+
+![Screens](https://i.imgur.com/mhndw2R.png)
