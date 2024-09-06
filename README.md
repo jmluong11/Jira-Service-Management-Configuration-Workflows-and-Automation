@@ -127,5 +127,71 @@
 
 <p>Screens in Jira determine which fields are displayed to users when they create, view, or edit an issue. Customizing these screens allows you to ensure that users are prompted for all relevant information when reporting an issue or moving it through its lifecycle.</p>
 
-
 ![Screens](https://i.imgur.com/mhndw2R.png)
+
+<h2>Understanding Jira Automation</h2>
+
+<p>Jira Automation is a powerful tool that allows you to create rules based on triggers, conditions, and actions. These rules can automate various aspects of your workflow, from issue assignment to notifications and field updates.</p>
+
+
+<img width="1178" alt="Automation" src="https://i.imgur.com/0mdHqO3.png">
+
+<p><strong>.</strong></p>
+<p><strong>.</strong></p>
+
+<h3>Key Concepts for Automation</h3>
+
+
+<p><strong>Triggers:</strong> What initiates the automation rule. For example, creating an issue, updating an issue, or transitioning an issue could be triggers.</p>
+
+<p><strong>Conditions:</strong>  Criteria that must be met for the automation rule to execute. 
+Conditions help ensure that actions are taken only when relevant.</p>
+
+<p><strong>Actions:</strong>  The operations performed when the trigger fires and the conditions are met. Actions can include updating an issue, sending an email, or transitioning an issue to a different status.</p>
+
+<h3>Examples of Automation Rules for an IT Help Desk</h3>
+
+<p><strong>Auto-Assigning Issues Based on Severity or Type</strong></p>
+
+- Trigger: Issue created.
+- Condition: Check the issue's severity or type (e.g., "Critical" severity or "Network Issue" type).
+- Action: Assign the issue to a specific user or group responsible for that type of issue.
+
+<img width="403" alt="Example 1" src="https://i.imgur.com/09bP3C1.png">
+
+<p><strong>.</strong></p>
+<p><strong>.</strong></p>
+
+
+<p><strong>Notifying Team Members of High-Severity Issues</strong></p>
+
+- Trigger: Issue created with a "Critical" severity.
+- Condition: Issue severity is set to "Critical."
+- Action: Send an email notification to the Admins
+
+<img width="624" alt="Example 2" src="https://imgur.com/bMDJnVf.png">
+
+<p><strong>.</strong></p>
+<p><strong>.</strong></p>
+
+<p><strong>Automated Reminders for Pending Issues</strong></p>
+
+- Trigger: Scheduled trigger (e.g., run daily).
+- Condition: Check for issues in "In Progress" status for more than a specified time (e.g., 3 days).
+- Action: Send a reminder to the assignee or post a comment on the issue.
+
+<img width="624" alt="pending issues" src="https://i.imgur.com/WATxcMK.png">
+
+
+<h2> Conclusion</h2>
+
+<p>The "Jira Service Management: Configuration, Workflows, and Automation" project showcases the various features of Jira that optimize IT service management processes. By carefully configuring Jira Service Management, designing efficient workflows, and implementing smart automation, organizations can significantly improve the speed, accuracy, and quality of their IT services.</p>
+
+
+<h2>Future Directions</h2>
+
+<p>In the following project, we will look at example scenarios and study the lifecycle of a ticket from creation to resolution. </p>
+
+<h1>Thank you! &#127881; </h1>
+
+
